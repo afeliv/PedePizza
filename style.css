@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:brown;
+    margin: 0;
+}
+
+.h2-main {
+    color:brown;
+    font-size: 30px;
+    margin-bottom:20px;
+}
+.formulario {
+    position: relative;
+    color: #000000;
+    background-color:#e8e2d4 ;
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.div-imagem {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.div-imagem img {
+  width: 140px;
+  display: block;
+}
+
+.p-title {
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.divTamanho p {
+    font-size: 16px;
+    color: #000000;  
+}
+
+.divTamanho input[type="radio"]:checked + label {
+    color: #930808;  
+    transition: 0.3s;
+}
+
+#sabores {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #930808;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
